@@ -1,13 +1,10 @@
 package org.vaadin.blog;
 
-import java.util.Random;
-
 import com.vaadin.server.VaadinRequest;
-import com.vaadin.ui.Button;
+import com.vaadin.ui.*;
 import com.vaadin.ui.Button.ClickEvent;
-import com.vaadin.ui.HorizontalLayout;
-import com.vaadin.ui.UI;
-import com.vaadin.ui.VerticalLayout;
+
+import java.util.Random;
 
 @SuppressWarnings("serial")
 public class GaugeUI extends UI {
